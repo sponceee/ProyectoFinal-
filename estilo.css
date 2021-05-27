@@ -1,0 +1,1354 @@
+/*Fonts*/
+/*font-size*/
+/*color*/
+* {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    word-spacing: normal; }
+  
+  .titulo {
+    font-family: 'Cormorant', serif;
+    font-size: 28px;
+    color:#080808;
+    margin: 5px; }
+  
+  p {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 22px;
+    color: #080800;
+    margin: 5px; }
+  
+  header {
+    font-family: 'Cormorant', serif;
+  width: inherit; }
+  
+  #headerimg {
+    width: 100%; }
+  
+  footer {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    color: #393d45;
+    background-color: #080808;
+    width: 100%;
+    text-align: center; }
+  
+  ul {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    list-style: none; }
+  
+  legend {
+    text-align: center; }
+  
+  .newsteller__input--select {
+    font-family: "Fira Sans Extra Condensed", sans-serif; }
+  
+  #date {
+    font-family: "Fira Sans Extra Condensed", sans-serif; }
+  
+  .button {
+    font-family: "Fira Sans Extra Condensed", sans-serif; }
+  
+  [href] {
+    color: #080808;
+    text-decoration: none;
+    margin: 0 20px; }
+  
+  [href]:hover {
+    color:#f1f2f2;
+    font-weight: bolder;
+    transition:0.8s; }
+  
+  form {
+    color: #566775; }
+  
+  
+.inline {
+    font-size: 19px;
+    display: inline-block;
+  text-align: center;}
+  
+  
+ 
+  
+  #ulmenu {
+    margin: 20px 0px 0px 0px; }
+  
+  .fieldset-1 {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 50px;
+    padding-top:50px; }
+  
+  #top {
+    display: block; }
+  
+  .newsteller {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-content: center; }
+  
+  .perfil {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center; }
+  
+  #noticias1 {
+    display: flex;
+    flex-direction: row;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 20px 20px; }
+  
+  #noticias2 {
+    display: flex;
+    flex-direction: row;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 20px 20px;
+    justify-items: center; }
+  
+  #noticias0 {
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%; }
+  
+  textarea {
+    margin: 5px; }
+  
+
+  
+  .noticia {
+    box-sizing: content-box;
+    text-align: center;
+    margin: 25px; }
+  
+  .historia {
+    display: flex;
+    flex-direction: row; }
+    
+  
+  
+  .card.h-100:hover {
+    margin: 5px;
+    transform: scale(1);
+    transition: 1s; }
+  
+  .ushuaia {
+    box-sizing: content-box;
+    width: 100%;
+    height: 450px;
+    overflow: scroll; }
+  
+  .ushuaia_texto {
+    display: block;
+    margin: 40px;
+    padding: 10px;
+    text-align: justify;
+    justify-content: center;
+    line-height: 1cm; }
+#index{
+  width:100%;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+.parallax-completo{
+  width:100%;
+  height:95vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.parallax-completo1{
+  width:100%;
+  height:90vh;
+  background-image: url('./galeria/ushuaiaheaderfyv.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#videoheader{
+  position:fixed;
+  min-width 100%;
+  min-height:100%;
+  top:50%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
+
+.tituloi{
+  font-size: 40px;
+  font-family: 'Cormorant', serif;
+  font-weight: 100 ;
+  margin-left: 900px;
+  margin-top: 100px;
+  color:#f7f6f0;
+  border-style:ridge;
+  border-color: #f7f6f0;
+  border-right: transparent;
+  border-left: transparent;  
+}
+.towi{
+  font-family: 'Cormorant', serif;
+  font-size: 18px;
+  text-align: center;
+  color:#f7f6f0;
+}
+
+.parallax-1{
+  box-sizing: border-box;
+  text-align: center;
+  text-align: center;
+  padding: 77px ;
+  background-color:#f1f2f2;  
+  width: 100%;
+  height:100%;
+ 
+}
+
+.recuadro123{
+  display:flex;
+ 
+  }
+
+.recuadro12{
+  flex:50%;
+}
+
+.recuadro1{
+  display: inherit;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 100px;
+  background-color: #080800;
+  height:700px;
+  width:600px;
+ 
+
+}
+
+.recuadro2{
+  display: inherit;
+  position: relative;
+  margin-left: 90px;
+  margin-top: 130px; 
+  height:700px;
+  width:600px;
+  background-image:url('./galeria/ushuaiam1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: +1;
+
+}
+
+
+.recuadro3{
+  flex:50%;
+  height:700px;
+  font-family: 'Cormorant', serif;
+  padding-top: 350px;
+}
+
+.recuadro3__1{
+  width:400px;
+  height:120px;
+  margin-left: 20%;
+}
+.textor3{
+  font-family:'Cormorant', serif ;
+}
+.parallax-2{
+  width:100%;
+  height:1200px;
+  background-color: #f1f2f2;
+
+}
+
+.recuadro4y5{
+  padding-top: 100px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
+  
+}
+.recuadro4{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  height:500px;
+  border-style: solid;
+  border-color: #080008;}
+ 
+.recuadro5{
+  position:absolute;
+   margin-top: 20px;
+  margin-left: 50px;
+  width: 60%;
+  height:500px;
+  background-image: url('./galeria/ushuaiam3.png');
+  background-position: bottom;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.recuadro6{ 
+  width: fit-content;
+  height:200px;
+  background-color: #080808;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+.texto6{
+  color:#f1f2f2;
+  font-weight: lighter;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 60px;
+
+}
+
+
+.parallax-3{
+  box-sizing: border-box;
+  height:200px;
+  width:100%;
+  padding:55px;
+  background-color: #f8f9fb;
+  text-align:center;
+  box-shadow: inset 1px 1px 3px 0 #080808; 
+}
+#navindex{
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    position:absolute;
+    background-color: transparent;
+    padding:0px;
+    top: 1px;
+    display: inline-block;   
+    text-align: center; 
+    padding-top: 12px;
+    
+  }
+  #navindex:hover{
+    background-color: lavenderblush;
+    font-weight: 500;
+    opacity: 80%;
+    transition: 1s;
+  }
+
+
+.parallax-4{
+  background-image: url('ushuaia02.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed ;
+  box-sizing: border-box;
+  height: 200px;
+  width: 100%;
+}
+
+
+.parallax-fyv{
+  box-sizing: border-box;
+  width:100%;
+  height:100%;
+  background-color:#fbefdf;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+
+
+.imageng{
+  width:100%
+}
+
+.imageng:hover{
+transform:translateY(2px);
+opacity:90%;}
+
+.galeria{
+  display: flex;
+  padding: 30px;
+  padding-top:70px;
+}
+
+.column{
+  flex:25%;
+  padding:5px;
+}
+
+.imageng{
+  margin-top: 5px;
+}
+
+/*Galeria en cuadros*/
+
+.parallax-fyv2{
+  box-sizing: border-box;
+  width:100%;
+  height:100%;
+  background-color:black;
+  ;
+  
+}
+
+    /* display flex + imagenes*/
+
+.infoimg {
+  display:flex;
+}
+
+.infoimg__1{
+  flex: 50%;
+}
+.imginfo1{
+  height:90vh;
+  background-image: url('./galeria/ushuaiaheaderfyv.png');
+  background-position:left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.imginfo{
+  height:90vh;
+  background-image: url('ushuaia02.png');
+  background-position:left;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+    /*contenedores de texto de imagenes*/
+
+.contenedortexto1{ 
+  flex:50%;
+  height:90vh;
+  background-color: #e9e8eb;}
+
+
+.contenedortexto2{ 
+  display: flex;
+  flex:50%;
+  height:90vh;
+  background-color:#f7f6f0 ;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contenedortexto2__1{
+  box-sizing: content-box;
+  width:fit-content;
+  border-style: ridge;
+  border-color: black;
+  border-width: 1.5px;
+  border-left: transparent;
+  border-right: transparent;
+
+}
+
+ 
+
+}
+.contenedortexto1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulocontenedor{
+  font-family: 'Barlow', sans-serif;
+  font-size: 50px;
+  font-weight:900;
+  padding:30px;
+  
+
+}
+
+.textocontenedor1{
+  font-size: 25px;
+  text-align: center;
+  margin:25%;
+  
+}
+
+/* 3er parallax con imagenes de demás estaciones*/
+
+.parallax-fyv3{
+  box-sizing: border-box;
+  height: 100%;
+  width:100%;
+  background-color: #aba293;
+  
+}
+
+.tituloUshuaia{
+  font-size: 60px;
+  text-align: center;
+  padding-top:50px;
+  color: #080808;
+}
+
+.fyvestaciones{ /*div padre FLEX*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.textoprimavera{
+  margin-top: 40px;
+
+}
+.tituloprimavera{
+  font-size:30px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color:#080808;
+  
+}
+
+.textoprimavera__1{
+  padding-top: 7px;
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;  
+  color: #080808;
+ 
+  
+
+}
+.primavera{
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 230px;
+    height:200px;
+    padding:5px;
+    flex-wrap: wrap;
+    
+}
+
+
+.fyvestaciones__1
+{display: flex;
+margin-top: 3px;
+}
+
+.fyvestaciones1{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding-bottom: 100px;
+}
+.fyvestaciones1__1{
+  display: flex;
+
+  
+}
+
+.otoño{
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 230px;
+  height:200px;
+  padding:5px;
+}
+.textootoño{
+  margin-top: 80px;
+
+}
+.titulootoño{
+  font-size:30px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color:#080808;
+  
+}
+
+.textootoño__1{
+  padding-top: 7px;
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;  
+  color: #080808;
+ 
+  
+
+}
+.primavera{
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 230px;
+    height:200px;
+    padding:5px;}
+
+/*4to paralax:formulario*/
+.parallax-fyv4{
+  width: 100%;
+  height:100%;
+  background-color: #7c9a92;
+    
+}
+.contenedorformulario1{
+    padding-bottom: 70px;
+ 
+}
+
+.textoformulario{
+  padding-top: 70px;
+  text-align: center;
+}
+
+.tituloformulario{
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  color: #e0e0e0;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.icon-envelope-o{
+  align-items: center;
+  color: #e0e0e0;
+
+}
+.contenedorformulario1__1{ 
+  text-align: center;
+  padding:10px;
+}
+.textoformulario1{
+  color: #e0e0e0;
+  font-size: 30px;
+  
+}
+.formulariofyv{
+  color: #e0e0e0;
+  display: inline;
+  padding-top:
+  
+}
+
+/* Parallax 5. Estacion:verano*/
+
+.parallax-fyv5{
+  width: 100%;
+  height:100vh;
+  background-color:#eec48b;
+
+}
+
+.galeriaverano{
+  display:flex;
+  height: 100vh;
+}
+
+.galeriaverano1{
+  flex:60%;
+}
+.galeriaverano2{
+  flex: 40%;
+}
+
+.fotoverano{
+  height: 100%;
+  background-image: url('./galeria/ushuaiag11.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tituloverano{
+  font-family: 'Barlow', sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  padding-top:160px;
+  text-align: center;
+}
+.textoverano1{
+  text-align: center;
+  padding-top:70px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: 500;
+  font-size: 23px;
+  color:#080808;
+
+}
+
+/*seccion noticias*/
+
+.parallax-completo2{
+  width:100%;
+  height:90vh;
+  background-image: url('./galeria/ushuaiaheadernot.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.titulonoticia{
+  color:#080808;
+  font-family: 'Barlow', sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  padding-top:100px;
+  text-align: center;
+
+}
+
+.textonoticia{
+  font-family:"Fira Sans Extra Condensed", sans-serif;
+  font-size: 20px;
+  padding-top: 30px;
+  font-weight: 300;
+  text-align:center;
+  color: #080808;;
+}
+
+.parallax-noticias1{
+  width:100%;
+  height:100%;
+  background-color: #a4d3d6;
+  padding-bottom: 70px;
+
+}
+
+
+.parallax-noticias2{
+  width:100%;
+  height:100vh;
+  background-color:#d4dfe5 ;
+
+}
+
+.formulariopadre{
+  box-sizing: border-box;
+  height:170px;
+  width:570px;
+  background-color: #b4b4af;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  
+  
+}
+
+.formularionoticias{
+  margin-bottom: 30px;
+
+
+}
+.contenedorformulario1__2{ 
+  box-sizing: border-box;
+  text-align: center;
+  padding:10px;
+ 
+}
+.tituloformulario2{
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  color: #e0e0e0;
+  font-weight: 300;
+  font-size: 30px;
+  font-weight: 300; 
+  padding-top: 20px; 
+}
+.formularionot{
+  box-sizing: border-box;
+  color: #e0e0e0;
+  display: inline;
+  
+}
+
+/*tarjetas de noticias EVENTOS NIEVE*/
+
+/*1 elegi noticia*/
+
+.tituloelegi1{
+  font-family: 'Barlow', sans-serif;
+  font-size: 80px;
+  padding-top: 70px;
+  font-weight: 80;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.elegitunoticia{
+  box-sizing: border-box;
+  width: 75%;
+  height:100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.card.bg-dark.text-white{
+  box-sizing: border-box;
+  border-style: none;
+  width: 75%;
+  height:150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+ margin-top: 10px;
+  
+}
+
+.card.bg-dark.text-white:hover{
+  opacity: 85%;
+}
+.card-img-overlay1{
+  height: inherit;
+   background-image: url('./galeria/noticias/elegi1.png');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+.card-img-overlay2{
+  height: inherit;
+  background-image: url('./galeria/noticias/elegi3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.card-img-overlay3{
+  height: inherit;
+  background-image: url('./galeria/noticias/elegi4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.card-img-overlay4{
+  height: inherit;
+  background-image: url('./galeria/noticias/elegi5.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/*2da seccion*/
+
+.segundaseccion{
+  display: flex;
+  height:inherit;
+}
+.card-text{
+  box-sizing: border-box;
+  border-style: none;
+  width: 100%;
+  height:80px;
+}
+.card-title{
+  text-align: center;
+  text-justify: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Barlow', sans-serif;
+  color: #e3e8ee;
+  padding-top: 50px;
+}
+.parallax-noticias{
+  width:100%;
+  height: 580px;
+  background-color:#e3e8ee;
+}
+
+/*RECREATIVAS*/
+
+.tarjetas{
+  flex:50%;
+  box-sizing: border-box;
+  width: 80%;
+  height:30vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+
+
+.card-deck{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.card1{
+  flex:40%;
+  margin:10px;
+
+}
+.card-body1{
+  background-color: #d9ebe9;
+  height: 230px;
+}
+
+.card-title1{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.card-text1{
+  color:#080808;
+  text-align: center;
+  text-justify: center;
+  padding:10px 10px;
+}
+.recreativas{
+  font-family: 'Cormorant', serif;
+  text-align: center;
+ padding-bottom: 30px;
+ color:#080800;
+}
+
+/*COVID*/
+.tarjetas1{
+  flex:50%;
+  height: inherit;
+  background-color:#d40000;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+ 
+  
+}
+
+.titulocovid{
+  font-style: 'Cormorant', serif;
+  box-sizing: border-box;
+  width: fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color:red;
+  background-color:#080808;
+  border-color: red ;
+  
+}
+.imgcovid{
+  height: 400px;
+  width:500px;
+  background-image: url('./galeria/noticias/covid.png');
+  background-size:cover ;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+
+/*parallax 3, ACTUALIDAD(tiene parallax3, pero seria el "0" por eso los demás grupos son 0* [CORREGIR]*/ 
+
+.parallax-noticias3{
+  width: 100%;
+  height:100vh;
+  background-color: #032e42;
+
+}
+.actualidad/*titulo actualidad prop dicho*/{
+   color:#e3e8ee;
+   text-align: center;
+   text-justify: center;
+   padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.actualidad2/*footer leer mas*/{
+  font-size: 20px;
+  color: #e3e8ee;
+  box-sizing: border-box;
+  width: fit-content;
+  height:auto;
+  background-color:#080800 ; 
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding:0px 10px;
+  border-radius:10px;
+  opacity: 80%;
+}
+.actualidad2:hover{
+  opacity: 100%;
+}
+
+
+.card-title0{
+  color:#032e42;
+  padding-top: 30px;
+  text-align: center;
+
+
+}
+.card-text0{
+  padding-top: 20px;;
+  color:#080808;
+  text-align: center;
+  font-weight: bolder;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.card-img-top{
+  height: 180px;
+}
+.card0:hover{
+  opacity:85%;
+}
+.card-group0{
+  display: flex;
+  height: inherit;
+}
+.card0{
+  flex:30%;
+}
+.card-body0{
+  background-color: #d9ebe9;
+  height: 250px;
+}
+
+/*publicidad*/
+
+.publicidad{
+  width: 100%;
+  height:400px;
+  background-color: #080800;
+
+}
+.publicidad1{
+  flex: 33%;
+  margin-right: 10px;
+  height: 150px;
+
+
+;
+  
+
+}
+
+.contenedorpublicidad{ 
+  display: flex;
+  box-sizing: border-box;
+  width:80%;
+  height:inherit;
+  margin-left: auto;
+  margin-right: auto;
+ padding-top: 120px;
+  
+ 
+
+
+}
+.contenedorpublicidad:first-child{
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*4ta seccion de noticias*/
+.parallax-noticias4{
+  width:100%;
+  height:680px;
+  background-color: #e9723d;
+}
+
+.provinciales{
+  color: #032e42;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.card-title2{
+  color:#032e42;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.card-text2{
+  text-align: center;
+  padding-top: auto;
+ 
+}
+
+
+/* información*/
+
+.parallax-completo3{
+  width:100%;
+  height:90vh;
+  background-image: url('./galeria/infoheader.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.informacion1{
+  width: 100%;
+  height:1800px;
+  background-color:lavenderblush ;
+}
+
+.divlos2{
+  display: flex;
+  box-sizing: border-box;
+  width: 80%;
+  height:500;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.los2{
+  flex:50%;
+  padding-top: 180px;
+  padding-right: 100px;
+  padding-left: 100px;
+
+  
+  
+}
+
+
+.fotoredondita{
+  width: 200px;
+  height:200px;
+  border-radius: 250px;
+  background-image: url('./galeria/amigos.png');
+  background-position: center;
+  background-size: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fotoredondita1{
+
+  width: 200px;
+  height:200px;
+  border-radius: 250px;
+  background-image: url('./galeria/camino.png');
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+.textoinfo{
+  padding-top: 20px;
+  text-align: center;
+  text-justify: center;
+}
+
+.titulotinfo{
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:orange;
+  padding-top: 20px;
+
+}
+
+.textotinfo{
+  padding-top: 20px;
+  line-height: 35px;
+  color:#080800;
+  padding-left: 30px;
+  padding-right: 30px;
+ font-family:'Raleway', sans-serif;
+
+
+
+}
+
+.formulario3{
+  margin-top: 170px;
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.textareainfo{
+  width: 100%;
+  height: 150px;
+  opacity: 70%;
+  margin-top:30px;
+}
+
+@media screen and (min-width: 480px) and (max-width:780px)  {
+  .inline{
+    display: block;
+    height: 25px;
+    text-align: center;
+  }
+  .navindex1{
+    background-color: white;
+    height: auto;
+    
+  }
+  .#videoheader{
+
+  
+  }
+
+  .recuadro1{
+    width: 300px;
+    margin-left: 0px;
+    height:400px;
+  }
+  
+  .recuadro2{
+    width:300px;
+    height:400px;
+    margin-left: 0px;
+  }
+  
+  .recuadro123{
+    flex-wrap: wrap; }
+
+  .recuadro3__1{
+    margin:0%;
+    width: 100%;
+    padding:0px;
+    
+  
+  }
+  
+
+  .recuadro4{ 
+    width: 300px;
+    height:200px;
+
+  }  
+  .recuadro5{
+    width: 300px;
+    height:200px;
+  }
+ .recuadro4y5{
+  margin-bottom: 0px;
+  padding-top: 0px;
+ }
+ .divlos2{
+   flex-wrap: wrap;
+ }
+ .informacion1{
+   height: auto;
+ }
+ .parallax-completo2{
+   width:480px;
+   background-position: bottom;
+
+ }
+ .tituloi{
+   margin:auto;
+ }
+ .card-group0{
+   flex-wrap: wrap;
+column-width: 50%;
+ }
+ .card-body0{
+   height: 100%;
+   font-size: 10px;
+ }
+ .card-text0{
+   font-size: 20px;
+   padding:2px;
+   margin:3px;
+   font-weight: 200;
+ }
+ .contenedorpublicidad{
+   flex-wrap: wrap;
+ 
+ }  
+ .publicidad1{
+   margin:2px;
+   width:300px;
+ }
+ .publicidad{
+   height: 100%;
+ }
+ .parallax-noticias3{
+   height: auto;
+ }
+ .parallax-noticias4{
+   height: 100%;
+ }
+ .fyvestaciones__1{
+   flex-wrap: wrap;
+ }
+ .fyvestaciones1{
+   flex-wrap: wrap;}
+  .textotinfo{
+  font-size: 20px;
+  padding:0px;
+  
+  }
+  .formulariopadre{
+  width:480px;
+  }
+
+  .column{
+  flex:100%;
+  flex-wrap: wrap;}
+
+  .contenedortexto1__1{
+    height: inherit;
+    overflow: hidden;
+  }
+  .imginfo{
+    background-position: right;
+  }
+  .tituloverano{
+    font-size: 30px;
+  }
+.miperfil{
+  width: 100%;
+  height:100vh;
+
+}
