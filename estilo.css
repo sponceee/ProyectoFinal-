@@ -68,6 +68,17 @@
     display: inline-block;
   text-align: center;}
   
+
+  
+  .primavera:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+  }
+
+  .otoño:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+  }
   
  
   
@@ -179,7 +190,7 @@
   position:fixed;
   min-width 100%;
   min-height:100%;
-  top:50%;
+  top:48%;
   left:50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: -1;
@@ -319,7 +330,9 @@
   font-weight: lighter;
   line-height: 20px;
   text-align: center;
-  padding-top: 60px;
+  margin: 80px;
+  display: inline-block;
+  ;
 
 }
 
@@ -433,7 +446,7 @@ opacity:90%;}
 
 .imginfo{
   height:90vh;
-  background-image: url('http://turismoushuaia.com/trade/wp-content/uploads/2015/04/Parque-Nacional-Tierra-del-Fuego-en-Invierno-Evelyn-Devereux-1024x683.jpg');
+  background-image: url('./galeria/ushuaiag15.png');
   background-position:left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -489,7 +502,8 @@ opacity:90%;}
 .textocontenedor1{
   font-size: 25px;
   text-align: center;
-  margin:25%;
+  padding:300px;
+  overflow: hidden;
   
 }
 
@@ -529,6 +543,7 @@ opacity:90%;}
   color:#080808;
   
 }
+
 
 .textoprimavera__1{
   padding-top: 7px;
@@ -598,12 +613,6 @@ margin-top: 3px;
   
 
 }
-.primavera{
-    flex-direction: row;
-    box-sizing: border-box;
-    width: 230px;
-    height:200px;
-    padding:5px;}
 
 /*4to paralax:formulario*/
 .parallax-fyv4{
@@ -685,6 +694,11 @@ margin-top: 3px;
   font-weight: 900;
   padding-top:160px;
   text-align: center;
+}
+
+.textoverano{
+
+  padding-top: 250px;
 }
 .textoverano1{
   text-align: center;
@@ -980,7 +994,7 @@ margin-top: 3px;
 
 .parallax-noticias3{
   width: 100%;
-  height:100vh;
+  height:700px;
   background-color: #032e42;
 
 }
@@ -1127,11 +1141,13 @@ margin-top: 3px;
   justify-content: center;
   align-items: center;
 }
-
+.miperfil{
+  height: 600px;
+}
 
 .informacion1{
   width: 100%;
-  height:1800px;
+  height:1000px;
   background-color:lavenderblush ;
 }
 
@@ -1233,6 +1249,8 @@ margin-top: 3px;
     
   }
   .#videoheader{
+
+    ti
 
   
   }
